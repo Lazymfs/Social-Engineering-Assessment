@@ -1,5 +1,5 @@
 # Social Engineering Portfolio
-**By Muhammad Ruslan Syamel**  
+**By RSyamel**  
 
 ## Assignment Overview
 This repository contains my write-ups for the Social Engineering assessment, focusing on phishing analysis and email security.
