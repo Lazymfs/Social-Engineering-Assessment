@@ -55,7 +55,7 @@ Strange. This link redirects to google.com.
 
 **Note:** Tools to expand shortened URLs will be discussed in the Phishing Emails 3 room.  
 
-Answer the questions below
+**Answer the questions below**
 
 What phrase does the gibberish sender email start with?
 * noreply
@@ -91,7 +91,7 @@ Now we can understand why Yahoo automatically blocked the images in this email. 
 
 Back to the hyperlink, the link is pointing to a shady-looking domain. The only distribution center this domain can be associated with is malware, but further analysis is the only way to confirm that definitely. 
 
-Answer the questions below
+**Answer the questions below**
 
 What is the root domain for each URL? Defang the URL.
 * devret[.]xyz
@@ -142,7 +142,7 @@ This email sample was obtained from Any Run. If you wish to interact with the em
 
 **Analysis:** https://app.any.run/tasks/12dcbc54-be0f-4250-b6c1-94d548816e5c/#
 
-Answer the questions below
+**Answer the questions below**
 
 This email sample used the names of a few major companies, their products, and logos such as OneDrive and Adobe. What other company name was used in this phishing email?
 * Citrix
@@ -182,7 +182,7 @@ The attachment contains an embedded link titled 'Update Payment Account'.
 
 We'll look at this email attachment in closer detail in the upcoming Phishing Emails 3 room. 
 
-Answer the questions below
+**Answer the questions below**
 
 What should users do if they receive a suspicious email or text message claiming to be from Netflix?
 * forward the message to phishing@netflix.com
@@ -218,7 +218,7 @@ The above image shows what is contained within the attachment. You can see that 
 
 Notice the link contains certain keywords related to Apple: apps and ios. 
 
-Answer the questions below
+**Answer the questions below**
 
 What does BCC mean?
 * Blind Carbon Copy
@@ -263,7 +263,7 @@ The attachment runs a payload that throws an error.
 
 We'll look at this email attachment in closer detail in the upcoming Phishing Emails 3 room. 
 
-Answer the questions below
+**Answer the questions below**
 
 What is the name of the executable that the Excel attachment attempts to run?
 * regasm.exe
