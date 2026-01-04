@@ -1,14 +1,14 @@
 # Exercise 2: Phishing Emails in Action
-
+---
 ## 1. Objective
 The purpose of this exercise was to apply social engineering theory to real-world scenarios. I analyzed a series of actual phishing emails to identify common red flags such as urgency, typosquatting, and malicious payloads.
-
+---
 ## 2. Walkthrough & Analysis
 
 ### Task 1: Introduction
 I reviewed the basic principles of phishing defense and set up the lab environment.
 * **Status:** Completed.
-
+---
 ### Task 2: "Cancel your PayPal order"
 The email sample in this task will highlight the following techniques:
 
@@ -58,7 +58,7 @@ Answer the questions below
 
 What phrase does the gibberish sender email start with?
 * noreply
-  
+---
 ### Task 3: "Track your package"
 This email sample will highlight the following techniques:
 
@@ -94,7 +94,7 @@ Answer the questions below
 
 What is the root domain for each URL? Defang the URL.
 * devret[.]xyz
-  
+---  
 ### Task 4: "Select your email provider to view document"
 This email sample will highlight the following techniques:
 * **Urgency**
@@ -145,7 +145,7 @@ Answer the questions below
 
 This email sample used the names of a few major companies, their products, and logos such as OneDrive and Adobe. What other company name was used in this phishing email?
 * Citrix
-  
+---  
 ### Task 5: "Please update your payment details"
 This email sample will highlight the following techniques:
 
@@ -185,7 +185,7 @@ Answer the questions below
 
 What should users do if they receive a suspicious email or text message claiming to be from Netflix?
 * forward the message to phishing@netflix.com
-
+---
 ### Task 6: "Your recent purchase"
 This email sample will highlight the following techniques:
 
@@ -224,7 +224,7 @@ What does BCC mean?
 
 What technique was used to persuade the victim to not ignore the email and act swiftly?
 * Urgency
-
+---
 ### Task 7: "DHL Express Courier Shipping notice"
 This email sample will highlight the following techniques:
 
@@ -266,7 +266,7 @@ Answer the questions below
 
 What is the name of the executable that the Excel attachment attempts to run?
 * regasm.exe
-
+---
 ### Task 8: Conclusion
 In this room, we looked at various phishing samples. 
 
