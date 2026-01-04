@@ -3,6 +3,7 @@
 ## 1. Objective
 The purpose of this exercise was to apply social engineering theory to real-world scenarios. I analyzed a series of actual phishing emails to identify common red flags such as urgency, typosquatting, and malicious payloads.
 ---
+---
 ## 2. Walkthrough & Analysis
 
 ### Task 1: Introduction
