@@ -37,8 +37,8 @@ Next, let's look at the network protocols used to send an email from the sender 
 
 **Answer the questions below.**
 
-**Email dates back to what time frame?**
-* 1970s
+1. Email dates back to what time frame?
+   * 1970s
 ---
 ### Task 3: Email Delivery 
 A handful of protocols are involved with the "magic" that takes place when you hit SEND in an email client. 
@@ -65,14 +65,14 @@ Emails are stored on the server and can be downloaded to multiple devices.Sent m
 
 **Answer the questions below.**
 
-What port is classified as Secure Transport (STARTTLS) for SMTP?
-* 587
+1. What port is classified as Secure Transport (STARTTLS) for SMTP?
+   * 587
 
-What port is classified as Secure Transport for IMAP?
-* 993
+2. What port is classified as Secure Transport for IMAP?
+   * 993
 
-What port is classified as Secure Transport for POP3?
-* 995
+1. What port is classified as Secure Transport for POP3?
+   * 995
 ---
 ### Task 4: Email Headers
 Great! We know how an email travels from point A to point B and all the protocols involved in the process. 
@@ -141,11 +141,11 @@ https://web.archive.org/web/20221219232959/https://mediatemple.net/community/pro
 
 **Answer the questions below**
 
-What email header is the same as "Reply-to"?
-* Return-Path
+1. What email header is the same as "Reply-to"?
+   * Return-Path
 
-Once you find the email sender's IP address, where can you retrieve more information about the IP?
-* http://www.arin.net
+1. Once you find the email sender's IP address, where can you retrieve more information about the IP?
+   * http://www.arin.net
  --- 
 ### Task 5: Email Body
 The email body is the part of the email which contains the text (plain or HTML formatted) the sender wants you to view. 
@@ -207,14 +207,14 @@ With the base64 encoded data, you can decode it and save it to your machine.
 
 **Answer the questions below**
 
-In the above screenshots, what is the URI of the blocked image?
-* https://i.imgur.com/LSWOtDI.png
+1. In the above screenshots, what is the URI of the blocked image?
+   * https://i.imgur.com/LSWOtDI.png
 
-In the screenshots above, what is the name of the PDF attachment?
-* Payment-updateid.pdf
+1. In the screenshots above, what is the name of the PDF attachment?
+   * Payment-updateid.pdf
 
-In the attached virtual machine, view the information in email2.txt and reconstruct the PDF using the base64 data. What is the text within the PDF?
-* THM{BENIGN_PDF_ATTACHMENT}
+1. In the attached virtual machine, view the information in email2.txt and reconstruct the PDF using the base64 data. What is the text within the PDF?
+   * THM{BENIGN_PDF_ATTACHMENT}
 ---
 ### Task 6: Types of Phishing
 Now that we covered the general concepts regarding emails and how they travel from sender to recipient, we can now talk about how this method of communication is used for nefarious purposes. 
@@ -254,17 +254,17 @@ Analyze the email titled email3.eml within the virtual machine and answer the qu
 
 **Answer the questions below**
 
-What trusted entity is this email masquerading as?
-* Home Depot
+1. What trusted entity is this email masquerading as?
+   * Home Depot
 
-What is the sender's email?
-* support@teckbe.com
+1. What is the sender's email?
+   * support@teckbe.com
 
-What is the subject line? 
-* Order Placed : Your Order ID OD2321657089291 Placed Successfully
+1. What is the subject line? 
+   * Order Placed : Your Order ID OD2321657089291 Placed Successfully
 
-What is the website for the - CLICK HERE URL in a defanged format? (e.g. https://website.thm)
-* hxxp[://]t[.]teckbe[.]com
+1. What is the website for the - CLICK HERE URL in a defanged format? (e.g. https://website.thm)
+   * hxxp[://]t[.]teckbe[.]com
 ---  
 ### Task 7: Conclusion
 Before ending this room, you should know what BEC (Business Email Compromise) means.
@@ -285,5 +285,5 @@ In the upcoming Phishing Analysis series, we'll look at samples of various commo
 
 **Answer the questions below**
 
-What is BEC?
-* Business Email Compromise
+1. What is BEC?
+   * Business Email Compromise
