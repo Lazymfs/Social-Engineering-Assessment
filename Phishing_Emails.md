@@ -197,38 +197,88 @@ This email sample will highlight the following techniques:
 
 Here are some quick observations about this email sample:
 
-This email is made to appear that it's from Apple Support, but the sender's address is gibberish@sumpremed.com. 
-This email wasn't sent directly to the victim's inbox but rather BCCed (Blind Carbon Copy). The recipient email looks like another spoofed email to appear as a legitimate Apple email address. 
-Here is the element of urgency. Action is required on behalf of the victim. 
+1. This email is made to appear that it's from Apple Support, but the sender's address is gibberish@sumpremed.com. 
+2. This email wasn't sent directly to the victim's inbox but rather BCCed (Blind Carbon Copy). The recipient email looks like another spoofed email to appear as a legitimate Apple email address. 
+3. Here is the element of urgency. Action is required on behalf of the victim. 
 
+<img width="1006" height="153" alt="image" src="https://github.com/user-attachments/assets/d766e954-4144-43d8-86a7-40f5abfb6c4b" />
 
 There are a few noticeable typos in both the sender and recipient email addresses: donoreply and payament.
 
 This particular email doesn't necessarily have an email body. It's totally blank. The email simply contains an attachment. 
 
-
+<img width="334" height="161" alt="image" src="https://github.com/user-attachments/assets/719bcebb-9fc2-45f6-b172-d99fdcb9feab" />
 
 This file extension you may not be familiar to you. A .DOT file is page layout template files associated with Microsoft Word. 
 
-
+<img width="979" height="552" alt="image" src="https://github.com/user-attachments/assets/1b579b58-8428-4a2f-9e31-779f62cf88e4" />
 
 The above image shows what is contained within the attachment. You can see that the file contains a large image to resemble an App Store receipt. 
 
 Notice the link contains certain keywords related to Apple: apps and ios. 
 
 Answer the questions below
-What does BCC mean?
-Blind Carbon Copy
 
-Correct Answer
+What does BCC mean?
+* Blind Carbon Copy
+
 What technique was used to persuade the victim to not ignore the email and act swiftly?
+* Urgency
+
 ### Task 7: "DHL Express Courier Shipping notice"
-I analyzed a phishing email disguised as a DHL notification.
-* **Payload:** The email likely contained a malicious attachment (e.g., a `.zip` or `.html` file) or a link to a malware download.
-* **Defense:** I verified that the tracking number was invalid or the sender domain was misspelled.
-* *[Insert Screenshot of the DHL email]*
+This email sample will highlight the following techniques:
+
+* **Spoofed email address**
+* **HTML to impersonate a legitimate brand**
+* **Attachments**
+  
+Here are some quick observations about this email sample:
+
+1. The sender's email doesn't match the company that is being impersonated, which in this case is DHL.
+2. The subject line gives the impression that there is a package DHL will ship for you.
+3. The HTML in the email body was designed to look like it was sent from DHL. 
+
+<img width="971" height="290" alt="image" src="https://github.com/user-attachments/assets/37b4fa00-b0fa-4193-b487-a9c810e90458" />
+
+Looking at the source code for the email, the link to view the email as a web page doesn't contain an actual destination URL. 
+
+<img width="607" height="44" alt="image" src="https://github.com/user-attachments/assets/242c4b9c-b4de-4cd9-a953-20918ea5e89d" />
+
+...
+
+<img width="553" height="194" alt="image" src="https://github.com/user-attachments/assets/17f30ab0-7bf6-456b-aac4-aeeaae080ecb" />
+
+The only element the victim can interact with in this email is the email attachment, which, in this case is an Excel document. 
+
+<img width="796" height="698" alt="image" src="https://github.com/user-attachments/assets/6eca534e-197d-45eb-ac03-f61a4b7eaa20" />
+
+The image below shows what is contained within the attachment.
+
+<img width="980" height="551" alt="image" src="https://github.com/user-attachments/assets/fe638140-e52e-4983-acd5-a21c0fd1484a" />
+
+The attachment runs a payload that throws an error. 
+
+<img width="978" height="551" alt="image" src="https://github.com/user-attachments/assets/05bcc627-3b01-46e3-b6e2-78bba189e1ae" />
+
+We'll look at this email attachment in closer detail in the upcoming Phishing Emails 3 room. 
+
+Answer the questions below
+
+What is the name of the executable that the Excel attachment attempts to run?
+* regasm.exe
 
 ### Task 8: Conclusion
-I successfully identified the indicators of compromise in all scenarios.
-* **Key Takeaway:** Always check the **Sender Address** and **Hover over links** before interacting with an email. Visuals and logos are easily copied and cannot be trusted.
-* *[Insert Screenshot of the completed room or the conclusion text]*
+In this room, we looked at various phishing samples. 
+
+Some of the samples shared similar techniques whereas, others introduced a new tactic for you to see and learn from. 
+
+Understanding how to detect phishing emails takes awareness training.
+
+Visit the resources below to acquaint yourself with other signs to look out for in phishing emails. 
+
+Additional Resources:
+
+* https://www.knowbe4.com/phishing
+* https://www.itgovernance.co.uk/blog/5-ways-to-detect-a-phishing-email
+* https://cheapsslsecurity.com/blog/10-phishing-email-examples-you-need-to-see/
+* https://phishingquiz.withgoogle.com
