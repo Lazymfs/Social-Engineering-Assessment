@@ -1,14 +1,15 @@
 # Exercise 1: Phishing Analysis Fundamentals
-
+---
 ## 1. Objective
 The goal of this lab was to dissect the components of an email to understand how phishing attacks work and how to detect them. I explored email addresses, delivery protocols, headers, and body content.
-
+---
+---
 ## 2. Walkthrough & Analysis
 
 ### Task 1: Introduction
 I started the machine and reviewed the basic concepts of email analysis.
 * **Status:** Completed.
-
+---
 ### Task 2: The Email Address
 It's only appropriate to start this room by mentioning the man who invented the concept of emails and made the @ symbol famous. The person responsible for the contribution to the way we communicate was Ray Tomlinson. 
 
@@ -34,11 +35,11 @@ To simplify this even further, think about the street on which you live on.
 
 Next, let's look at the network protocols used to send an email from the sender to the recipient.
 
-Answer the questions below.
+**Answer the questions below.**
 
 **Email dates back to what time frame?**
 * 1970s
-
+---
 ### Task 3: Email Delivery 
 A handful of protocols are involved with the "magic" that takes place when you hit SEND in an email client. 
 
@@ -62,7 +63,7 @@ Emails are downloaded and stored on a single device. Sent messages are stored on
 
 Emails are stored on the server and can be downloaded to multiple devices.Sent messages are stored on the server.Messages can be synced and accessed across multiple devices.
 
-Answer the questions below.
+**Answer the questions below.**
 
 What port is classified as Secure Transport (STARTTLS) for SMTP?
 * 587
@@ -72,7 +73,7 @@ What port is classified as Secure Transport for IMAP?
 
 What port is classified as Secure Transport for POP3?
 * 995
-
+---
 ### Task 4: Email Headers
 Great! We know how an email travels from point A to point B and all the protocols involved in the process. 
 
@@ -138,14 +139,14 @@ https://web.archive.org/web/20221219232959/https://mediatemple.net/community/pro
 
 **Note:** The questions below are based on the Media Template article.
 
-Answer the questions below
+**Answer the questions below**
 
 What email header is the same as "Reply-to"?
 * Return-Path
 
 Once you find the email sender's IP address, where can you retrieve more information about the IP?
 * http://www.arin.net
-  
+ --- 
 ### Task 5: Email Body
 The email body is the part of the email which contains the text (plain or HTML formatted) the sender wants you to view. 
 
@@ -204,7 +205,7 @@ With the base64 encoded data, you can decode it and save it to your machine.
 
 **Note:** Headers specific to 'content' can be found in various locations within an email message source code, and they're not only associated with attachments. For example, Content-Type can be text/html, and Content-Transfer-Encoding can have other values, such as 8bit. 
 
-Answer the questions below
+**Answer the questions below**
 
 In the above screenshots, what is the URI of the blocked image?
 * https://i.imgur.com/LSWOtDI.png
@@ -214,7 +215,7 @@ In the screenshots above, what is the name of the PDF attachment?
 
 In the attached virtual machine, view the information in email2.txt and reconstruct the PDF using the base64 data. What is the text within the PDF?
 * THM{BENIGN_PDF_ATTACHMENT}
-
+---
 ### Task 6: Types of Phishing
 Now that we covered the general concepts regarding emails and how they travel from sender to recipient, we can now talk about how this method of communication is used for nefarious purposes. 
 
@@ -251,7 +252,8 @@ Analyze the email titled email3.eml within the virtual machine and answer the qu
 
 **Note:** Alexa is the victim, and Billy is the analyst assigned to the case. Alexa forwarded the email to Billy for analysis. 
 
-Answer the questions below
+**Answer the questions below**
+
 What trusted entity is this email masquerading as?
 * Home Depot
 
@@ -263,7 +265,7 @@ What is the subject line?
 
 What is the website for the - CLICK HERE URL in a defanged format? (e.g. https://website.thm)
 * hxxp[://]t[.]teckbe[.]com
-  
+---  
 ### Task 7: Conclusion
 Before ending this room, you should know what BEC (Business Email Compromise) means.
 
@@ -281,7 +283,7 @@ Within this room, we covered the following:
 
 In the upcoming Phishing Analysis series, we'll look at samples of various common techniques used in phishing email campaigns, along with tools to assist us with analyzing an email header and email body. 
 
-Answer the questions below
+**Answer the questions below**
 
 What is BEC?
 * Business Email Compromise
