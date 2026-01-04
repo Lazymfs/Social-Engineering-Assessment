@@ -57,8 +57,8 @@ Strange. This link redirects to google.com.
 
 **Answer the questions below**
 
-What phrase does the gibberish sender email start with?
-* noreply
+1. What phrase does the gibberish sender email start with?
+   * noreply
 ---
 ### Task 3: "Track your package"
 This email sample will highlight the following techniques:
@@ -93,8 +93,8 @@ Back to the hyperlink, the link is pointing to a shady-looking domain. The only 
 
 **Answer the questions below**
 
-What is the root domain for each URL? Defang the URL.
-* devret[.]xyz
+1. What is the root domain for each URL? Defang the URL.
+   * devret[.]xyz
 ---  
 ### Task 4: "Select your email provider to view document"
 This email sample will highlight the following techniques:
@@ -144,8 +144,8 @@ This email sample was obtained from Any Run. If you wish to interact with the em
 
 **Answer the questions below**
 
-This email sample used the names of a few major companies, their products, and logos such as OneDrive and Adobe. What other company name was used in this phishing email?
-* Citrix
+1. This email sample used the names of a few major companies, their products, and logos such as OneDrive and Adobe. What other company name was used in this phishing email?
+   * Citrix
 ---  
 ### Task 5: "Please update your payment details"
 This email sample will highlight the following techniques:
@@ -184,8 +184,8 @@ We'll look at this email attachment in closer detail in the upcoming Phishing Em
 
 **Answer the questions below**
 
-What should users do if they receive a suspicious email or text message claiming to be from Netflix?
-* forward the message to phishing@netflix.com
+1. What should users do if they receive a suspicious email or text message claiming to be from Netflix?
+   * forward the message to phishing@netflix.com
 ---
 ### Task 6: "Your recent purchase"
 This email sample will highlight the following techniques:
@@ -220,11 +220,11 @@ Notice the link contains certain keywords related to Apple: apps and ios.
 
 **Answer the questions below**
 
-What does BCC mean?
-* Blind Carbon Copy
+1. What does BCC mean?
+   * Blind Carbon Copy
 
-What technique was used to persuade the victim to not ignore the email and act swiftly?
-* Urgency
+1. What technique was used to persuade the victim to not ignore the email and act swiftly?
+   * Urgency
 ---
 ### Task 7: "DHL Express Courier Shipping notice"
 This email sample will highlight the following techniques:
@@ -265,8 +265,8 @@ We'll look at this email attachment in closer detail in the upcoming Phishing Em
 
 **Answer the questions below**
 
-What is the name of the executable that the Excel attachment attempts to run?
-* regasm.exe
+1. What is the name of the executable that the Excel attachment attempts to run?
+   * regasm.exe
 ---
 ### Task 8: Conclusion
 In this room, we looked at various phishing samples. 
